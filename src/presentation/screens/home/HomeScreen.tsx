@@ -1,10 +1,14 @@
-import { View, Text } from 'react-native';
+import { Button, Icon, Layout, Text } from '@ui-kitten/components';
 
 
 export const HomeScreen = () => {
   return (
-    <View>
+    <Layout>
       <Text>HomeScreen</Text>
-    </View>
+      <Icon name='facebook'/>
+      <Button>
+        Cerrar
+      </Button>
+    </Layout>
   );
 }
